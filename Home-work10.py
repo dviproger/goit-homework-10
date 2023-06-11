@@ -43,9 +43,3 @@ class Name(Field):
 class Phone(Field):
     pass
     
-name = Name('kirk')
-phone = Phone('09923423423')
-record = Record(name, phone)
-print(record.name.value)
-
-print(record.get_record())
